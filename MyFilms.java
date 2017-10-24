@@ -89,7 +89,7 @@ public class MyFilms {
 		butSearch.addActionListener(new ButSearch());
 		butCountFilms.addActionListener(new ButCountFilms());
 	}
-	
+	//       КНОПКА ДОБАВЛЕНИЯ ФИЛЬМА
 	class ButAdd implements ActionListener{
 		public void actionPerformed(ActionEvent e) {
 			String name = nameTF.getText();
